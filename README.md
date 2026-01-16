@@ -80,7 +80,7 @@ Pastikan MQTT Broker sudah berjalan dan dapat diakses oleh Android dan ESP8266.
 
 Contoh:
 
-tcp://154.19.37.27:1883
+tcp://<MQTT_BROKER_IP>:1883
 
 ---
 
@@ -107,7 +107,9 @@ const char *password = "PASSWORD_WIFI";
 
 # 📸 Screenshot
 ### Android Dashboard
-![Android Dashboard](screenshots/android-dashboard.png)
+![Android Dashboard](screenshots/iot-connected.png)
+### IoT Connected
+![IoT Connected](screenshots/iot-connected.png)
 ---
 
 # ⚠ Catatan Penting
