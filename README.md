@@ -106,7 +106,8 @@ const char *password = "PASSWORD_WIFI";
 ---
 
 # 📸 Screenshot
-
+### Android Dashboard
+![Android Dashboard](screenshots/android-dashboard.png)
 ---
 
 # ⚠ Catatan Penting
