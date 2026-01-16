@@ -45,18 +45,16 @@ Aplikasi ini memungkinkan pengguna menyalakan dan mematikan LED secara real-time
 ## 🧩 Arsitektur Sistem
 
 ```yaml
-Android App
+  Android App
   |
-  |
-  MQTT (Publish / Subscribe)
+  |MQTT (Publish / Subscribe)
   |
   MQTT Broker
   |
   |
   ESP8266 (Wemos D1 Mini)
   |
-  |
-  GPIO
+  |GPIO
   |
   LED Hijau & LED Merah
 ```
