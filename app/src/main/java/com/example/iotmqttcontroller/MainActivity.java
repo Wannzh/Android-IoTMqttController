@@ -10,11 +10,11 @@ import org.eclipse.paho.client.mqttv3.*;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String BROKER_URL = "tcp://154.19.37.27:1883";
+    private static final String BROKER_URL = "tcp://<MQTT_BROKER_IP>:1883";
     private static final String TOPIC_CONTROL = "esp8266/led";
     private static final String TOPIC_STATUS = "esp8266/status";
-    private static final String USERNAME = "yudhi";
-    private static final String PASSWORD = "yudhi123";
+    private static final String USERNAME = "username mqtt";
+    private static final String PASSWORD = "password mqtt";
     private static final String TOPIC_STATE = "esp8266/state";
 
     TextView txtIoTStatus;
